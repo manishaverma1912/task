@@ -1,0 +1,15 @@
+.items-center{
+    align-items: center;
+}
+/* .bg-col{ */
+    /* background-color: rgb(233, 86, 45); */
+/* } */
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.margin{
+    margin: auto;
+}
