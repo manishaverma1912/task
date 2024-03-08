@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: white;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    background-color: white;
+}
+ 
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #526958;
+}
+ 
+nav .heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+ 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+ 
+nav ul li {
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+ 
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+ 
+nav ul li:hover {
+    background-color: green;
+}
+ 
+nav ul li a:hover {
+    color: white;
+}
+ .title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 200;
+ }
+ 
+section{
+    padding: 40px;
+    background-color: rgb(196, 213, 228);
+    margin: 40px;
+
+
+}
+.title1{
+    font-size: 25px;
+    font-weight: 20px;
+    padding: 10px;
+    text-decoration: underline;
+
+
+}
+.content{
+    padding: 25px;
+    margin: 10px;
+    font-size: 25px;
+    row-gap: 10px;
+
+
+}
+
+button{
+    font-size: 20px
+    
+    
+
+
+}
+ 
+
+
+a1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.c1{
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: underline;
+}
+footer{
+bottom: 0;
+font-size: 30px;
+padding: 10px;
+text-align:right;
+/* position: fixed; */
+
+border: 2px solid black;
+background-color: #5e6261;
+}
+.c2{
+    padding: 10px;
+    margin: 20px;
+    font-style: italic;
+    font-size: 25px;
+}
+
